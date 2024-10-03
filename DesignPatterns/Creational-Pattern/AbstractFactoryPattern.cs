@@ -77,11 +77,30 @@ namespace DesignPatterns.Creational_Pattern
         private readonly IShippingCostService _shippingCostService;
         private int _cost;
 
-        public ShoppingCart(IDiscountService discountService, IShippingCostService shippingCostService)
+        public ShoppingCart(IShoppingCartPurchaseFactory factory, int cost)
         {
-            _discountService = discountService;
-            _shippingCostService = shippingCostService;
+            _discountService = factory.CreateDiscountService();
+            _shippingCostService = factory.CreateShippingCostService();
+            _cost = cost;
+        }
 
+        public void CalculateCost()
+        {
+            Console.WriteLine($"Total Cost = {_cost - (_cost / 100 - _discountService.DiscountPercentage) + _shippingCostService.ShippingCost}");
+        }
+    }
+
+    public class RunAbstractFactory
+    {
+        public static void Run()
+        {
+            var indiaShoppingCart = new IndiaShoppingCartFactory();
+            var indShopping = new ShoppingCart(indiaShoppingCart, 2000);
+            indShopping.CalculateCost();
+
+            var usaShoppingCart = new UsaShoppingCartFactory();
+            var usaShopping = new ShoppingCart(usaShoppingCart, 2000);
+            usaShopping.CalculateCost();
         }
     }
 }
