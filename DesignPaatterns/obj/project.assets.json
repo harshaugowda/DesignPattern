@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/harsha/Documents/GitHub/DesignPattern/DesignPaatterns/DesignPaatterns.csproj",
-      "projectName": "DesignPaatterns",
-      "projectPath": "/Users/harsha/Documents/GitHub/DesignPattern/DesignPaatterns/DesignPaatterns.csproj",
+      "projectUniqueName": "/Users/harsha/Documents/GitHub/DesignPattern/DesignPaatterns/DesignPatterns.csproj",
+      "projectName": "DesignPatterns",
+      "projectPath": "/Users/harsha/Documents/GitHub/DesignPattern/DesignPaatterns/DesignPatterns.csproj",
       "packagesPath": "/Users/harsha/.nuget/packages/",
       "outputPath": "/Users/harsha/Documents/GitHub/DesignPattern/DesignPaatterns/obj/",
       "projectStyle": "PackageReference",
