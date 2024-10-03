@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Personel(Proj)\\GitHub\\DesignPatterns\\DesignPatterns.csproj": {}
+    "C:\\Personel(Proj)\\GitHub\\DesignPattern\\DesignPatterns\\DesignPatterns.csproj": {}
   },
   "projects": {
-    "C:\\Personel(Proj)\\GitHub\\DesignPatterns\\DesignPatterns.csproj": {
+    "C:\\Personel(Proj)\\GitHub\\DesignPattern\\DesignPatterns\\DesignPatterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Personel(Proj)\\GitHub\\DesignPatterns\\DesignPatterns.csproj",
+        "projectUniqueName": "C:\\Personel(Proj)\\GitHub\\DesignPattern\\DesignPatterns\\DesignPatterns.csproj",
         "projectName": "DesignPatterns",
-        "projectPath": "C:\\Personel(Proj)\\GitHub\\DesignPatterns\\DesignPatterns.csproj",
+        "projectPath": "C:\\Personel(Proj)\\GitHub\\DesignPattern\\DesignPatterns\\DesignPatterns.csproj",
         "packagesPath": "C:\\Users\\HaGowda\\.nuget\\packages\\",
-        "outputPath": "C:\\Personel(Proj)\\GitHub\\DesignPatterns\\obj\\",
+        "outputPath": "C:\\Personel(Proj)\\GitHub\\DesignPattern\\DesignPatterns\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
